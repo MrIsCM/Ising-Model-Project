@@ -25,6 +25,12 @@ This repository contains an implementation of the 2D Ising Model developed as pa
 
 ## Media
 
+<div align="center">
+  <img src="Simulations\Simulation_N100_T0.1\figures\demo.gif" alt="Ising Model Simulation Demo" width="400"/>
+  <br/>
+  <b>Ising Model simulation (N=100, T=0.1)</b>
+</div>
+
 Some graphs produced with the simulation data:
 
 <div align="center">
