@@ -26,7 +26,7 @@ This repository contains an implementation of the 2D Ising Model developed as pa
 ## Media
 
 <div align="center">
-  <img src="Simulations\Simulation_N100_T0.1\figures\demo.gif" alt="Ising Model Simulation Demo" width="400" loop="infinite"/>
+  <img src="Example Output\Example 2\figures\demo.gif" alt="Ising Model Simulation Demo" width="400" loop="infinite"/>
   <br/>
   <b>Ising Model simulation (N=100, T=0.1)</b>
 </div>
@@ -42,8 +42,8 @@ Some graphs produced with the simulation data:
 
 <table>
     <tr>
-        <td><img src="Simulations\Simulation_N2_T2\figures\energy_vs_T_N512.png" alt="Energy vs Temperature (N=512)" width="350"/></td>
-        <td><img src="Simulations\Simulation_N2_T2\figures\magnetization_vs_T_N512.png" alt="Magnetization vs T (N=512)" width="350"/></td>
+        <td><img src="Example Output\Example 1\figures\energy_vs_T_N512.png" alt="Energy vs Temperature (N=512)" width="350"/></td>
+        <td><img src="Example Output\Example 1\figures\magnetization_vs_T_N512.png" alt="Magnetization vs T (N=512)" width="350"/></td>
     </tr>
     <tr>
         <td align="center"><b>Energy vs Temperature (N=512)</b></td>
@@ -57,8 +57,8 @@ Some graphs produced with the simulation data:
 
 <table>
     <tr>
-        <td><img src="Simulations\Simulation_N2_T2\figures\Cv_vs_T_N512.png" alt="Cv vs Temperature (N=512)" width="350"/></td>
-        <td><img src="Simulations\Simulation_N2_T2\figures\loglog_alpha_N512.png" alt="Alpha parameter" width="350"/></td>
+        <td><img src="Example Output\Example 1\figures\Cv_vs_T_N512.png" alt="Cv vs Temperature (N=512)" width="350"/></td>
+        <td><img src="Example Output\Example 1\figures\loglog_alpha_N512.png" alt="Alpha parameter" width="350"/></td>
     </tr>
     <tr>
         <td align="center"><b>Heat capacity vs Temperature (N=512)</b></td>
