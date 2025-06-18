@@ -27,8 +27,6 @@ This repository contains an implementation of the 2D Ising Model developed as pa
 
 Some graphs produced with the simulation data:
 
-![Heat capacity vs Temperature (N=512)](Simulations/Simulation_N2_T2/figures/Cv_vs_T_N512.png)
-
 <div align="center">
 
 <table>
