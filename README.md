@@ -26,10 +26,15 @@ This repository contains an implementation of the 2D Ising Model developed as pa
 ## Media
 
 <div align="center">
-  <img src="Simulations\Simulation_N100_T0.1\figures\demo.gif" alt="Ising Model Simulation Demo" width="400"/>
+  <img src="Simulations\Simulation_N100_T0.1\figures\demo.gif" alt="Ising Model Simulation Demo" width="400" loop="infinite"/>
   <br/>
   <b>Ising Model simulation (N=100, T=0.1)</b>
 </div>
+
+<details>
+<summary>Note</summary>
+Most browsers automatically loop GIFs. If your GIF does not loop, ensure it was exported with looping enabled. The <code>loop="infinite"</code> attribute is not standard HTML, but some Markdown renderers may support it.
+</details>
 
 Some graphs produced with the simulation data:
 
