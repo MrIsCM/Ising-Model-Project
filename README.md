@@ -88,3 +88,8 @@ pip install -r requirements.txt
 ```
 
 This command does not install PyTorch nor CUDA.
+
+## Authors
+
+- https://github.com/Ycarogg
+- https://github.com/MrIsCM
