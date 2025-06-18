@@ -25,15 +25,49 @@ This repository contains an implementation of the 2D Ising Model developed as pa
 
 ## Media
 
+Some graphs produced with the simulation data:
+
+![Heat capacity vs Temperature (N=512)](Simulations/Simulation_N2_T2/figures/Cv_vs_T_N512.png)
+
+<div align="center">
+
+<table>
+    <tr>
+        <td><img src="Simulations\Simulation_N2_T2\figures\energy_vs_T_N512.png" alt="Energy vs Temperature (N=512)" width="350"/></td>
+        <td><img src="Simulations\Simulation_N2_T2\figures\magnetization_vs_T_N512.png" alt="Magnetization vs T (N=512)" width="350"/></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Energy vs Temperature (N=512)</b></td>
+        <td align="center"><b>Magnetization vs T (N=512)</b></td>
+    </tr>
+</table>
+
+</div>
+
+<div align="center">
+
+<table>
+    <tr>
+        <td><img src="Simulations\Simulation_N2_T2\figures\Cv_vs_T_N512.png" alt="Cv vs Temperature (N=512)" width="350"/></td>
+        <td><img src="Simulations\Simulation_N2_T2\figures\loglog_alpha_N512.png" alt="Alpha parameter" width="350"/></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Heat capacity vs Temperature (N=512)</b></td>
+        <td align="center"><b>&#945; parameter linear regression</b></td>
+    </tr>
+</table>
+
+</div>
+
 
 ## Requirements
 
 To run the code, make sure you have the following installed:
 
-- Python 3.8+ (I )
+- Python 3.9+
 - [NumPy](https://numpy.org/)
 - [Numba](https://numba.pydata.org/)
-- [Matplotlib](https://matplotlib.org/) (for optional plotting)
+- [Matplotlib](https://matplotlib.org/)
 - [PyTorch](https://pytorch.org/) with CUDA (for GPU acceleration)
 - [SciPy](https://scipy.org/)
 - [Imageio](https://pypi.org/project/imageio/) (used to produce Gifs rapidely)
@@ -44,4 +78,4 @@ You can install the dependencies using:
 pip install -r requirements.txt
 ```
 
-Make sure you have a compatible GPU and CUDA drivers installed if you want to run the GPU-accelerated version.
+This command does not install PyTorch nor CUDA.
