@@ -22,6 +22,10 @@ This repository contains an implementation of the 2D Ising Model developed as pa
 - CPU optimization using Numba
 - Modular and reusable code structure
 
+
+## Media
+
+
 ## Requirements
 
 To run the code, make sure you have the following installed:
